@@ -1,0 +1,86 @@
+[
+  {
+    "day": 1,
+    "title": "Welcome to Rome",
+    "locations": "Rome",
+    "image": "/placeholder.svg?height=150&width=300",
+    "activities": ["Arrival Transfer", "Welcome"],
+    "description": "Arrive in the Eternal City of Rome. Transfer to your hotel and enjoy a welcome reception with your Travel Director and fellow travelers."
+  },
+  {
+    "day": 2,
+    "title": "Discover Ancient Rome and the Vatican City",
+    "locations": "Rome → Vatican → Rome",
+    "image": "/placeholder.svg?height=150&width=300",
+    "activities": ["Guided Tour", "Museum Visit"],
+    "description": "Explore the Vatican Museums, Sistine Chapel, and St. Peter's Basilica. In the afternoon, visit the Colosseum and Roman Forum."
+  },
+  {
+    "day": 3,
+    "title": "Explore the Ruins of Pompeii and Sorrento",
+    "locations": "Rome → Pompeii → Sorrento",
+    "image": "/placeholder.svg?height=150&width=300",
+    "activities": ["Guided Tour", "Travel"],
+    "description": "Journey to the ancient city of Pompeii for a guided tour of the archaeological site. Continue to the coastal town of Sorrento."
+  },
+  {
+    "day": 4,
+    "title": "Cruise to the Isle of Capri",
+    "locations": "Sorrento → Capri → Sorrento",
+    "image": "/placeholder.svg?height=150&width=300",
+    "activities": ["Boat Trip", "Free Time"],
+    "description": "Take a boat to the enchanting Isle of Capri. Enjoy a guided tour and free time to explore the charming town and its boutiques."
+  },
+  {
+    "day": 5,
+    "title": "Onwards to Assisi",
+    "locations": "Sorrento → Assisi",
+    "image": "/placeholder.svg?height=150&width=300",
+    "activities": ["Travel", "Orientation Walk"],
+    "description": "Travel through the Italian countryside to reach Assisi, the birthplace of St. Francis. Take an orientation walk through the town.",
+    "badge": {
+      "text": "Trafalgar Difference",
+      "variant": "secondary"
+    }
+  },
+  {
+    "day": 6,
+    "title": "Venture to Verona and Venice",
+    "locations": "Assisi → Verona → Venice",
+    "image": "/placeholder.svg?height=150&width=300",
+    "activities": ["Guided Tour", "Travel"],
+    "description": "Stop in Verona, the setting for Shakespeare's Romeo and Juliet. Continue to the magical city of Venice."
+  },
+  {
+    "day": 7,
+    "title": "St. Mark's and More in Venice",
+    "locations": "Venice",
+    "image": "/placeholder.svg?height=150&width=300",
+    "activities": ["Boat Tour", "Glassblowing Demonstration"],
+    "description": "Cruise to St. Mark's Square and visit the Basilica. Watch skilled artisans at work at a glassblowing factory.",
+    "badge": {
+      "text": "MAKE TRAVEL MATTER®",
+      "variant": "destructive"
+    }
+  },
+  {
+    "day": 8,
+    "title": "Stroll Around Milan",
+    "locations": "Venice → Milan → Lake Maggiore",
+    "image": "/placeholder.svg?height=150&width=300",
+    "activities": ["City Tour", "Travel"],
+    "description": "Head to Milan for a walking tour, including a visit to the Gothic cathedral. Continue to Lake Maggiore."
+  },
+  {
+    "day": 9,
+    "title": "On to Como and Scenic Lake Maggiore",
+    "locations": "Lake Maggiore → Lake Como → Lake Maggiore",
+    "image": "/placeholder.svg?height=150&width=300",
+    "activities": ["Boat Trip", "Free Time"],
+    "description": "Take a private boat to Isola Bella for a guided tour of the Borromeo Palace. Enjoy free time in Como.",
+    "badge": {
+      "text": "Be My Guest",
+      "variant": "outline"
+    }
+  }
+]
