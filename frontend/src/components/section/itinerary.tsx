@@ -26,7 +26,7 @@ interface ItineraryDay {
   description: string
   image: any
   locations: string
-  activities: string[]
+  activities?: string[]
   badge?: {
     text: string
     variant: string
@@ -120,11 +120,12 @@ export default function Component() {
                     <h4 className="text-xl font-bold">{day.title}</h4>
                     <p className="text-sm text-muted-foreground">{day.locations}</p>
                     <div className="flex gap-2 mt-2">
-                      {day.activities.map((activity, actIndex) => (
-                        <span key={actIndex} className="text-xs bg-muted px-2 py-1 rounded-full">
-                          {activity}
-                        </span>
-                      ))}
+                      {day.activities &&
+                        day.activities.map((activity, actIndex) => (
+                          <span key={actIndex} className="text-xs bg-muted px-2 py-1 rounded-full">
+                            {activity}
+                          </span>
+                        ))}
                     </div>
                   </div>
                 </div>

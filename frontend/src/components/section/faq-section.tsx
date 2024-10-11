@@ -79,7 +79,9 @@ export default function FAQSection() {
         >
           {faqData.faqs.map((faq, index) => (
             <AccordionItem key={index} value={`item-${index}`}>
-              <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
+              <AccordionTrigger className="text-left bg-[#2d5a7b] text-white font-bold px-4 my-2">
+                {faq.question}
+              </AccordionTrigger>
               <AccordionContent>
                 <p className="text-gray-700">{faq.answer}</p>
               </AccordionContent>

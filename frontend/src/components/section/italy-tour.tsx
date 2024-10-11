@@ -150,7 +150,7 @@ export default async function ItalyTourSection() {
             </Card>
           </div>
 
-          <div className="flex justify-center space-x-8">
+          <div className="flex justify-center space-x-8 pt-10">
             {highlightsData.map((highlight, index) => (
               <div key={index} className="flex flex-col items-center">
                 <div className="bg-gray-200 rounded-full p-4">{highlight.icon}</div>

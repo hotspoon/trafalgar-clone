@@ -22,7 +22,6 @@ export default function SightseeingHighlights() {
         highlights
       }`
       const data = await client.fetch(query)
-      console.log(data)
       setHighlightsData(data)
       setLoading(false)
     }
@@ -39,20 +38,20 @@ export default function SightseeingHighlights() {
   }
 
   return (
-    <Card className="w-full mx-auto">
-      <CardHeader>
-        <CardTitle className="text-3xl font-bold">About this trip</CardTitle>
+    <Card className="w-full mx-auto grid md:grid-cols-3">
+      <CardHeader className="md:col-span-1">
+        <CardTitle className="text-xl font-bold">About this trip</CardTitle>
+        <CardTitle className="text-normal font-bold text-green-700">
+          {highlightsData.title}
+        </CardTitle>
       </CardHeader>
-      <CardContent>
-        <h2 className="text-2xl font-semibold text-green-700 mb-4">{highlightsData.title}</h2>
-        <div className="grid md:grid-cols-2 gap-4">
-          {highlightsData.highlights.map((highlight, index) => (
-            <div key={index} className="flex items-start space-x-2">
-              <MapPin className="text-green-700 mt-1 flex-shrink-0" />
-              <p className="text-gray-700">{highlight}</p>
-            </div>
-          ))}
-        </div>
+      <CardContent className="md:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-6">
+        {highlightsData.highlights.map((highlight, index) => (
+          <div key={index} className="flex items-start space-x-3">
+            <MapPin className="text-green-700 flex-shrink-0" />
+            <p className="text-gray-700 text-sm">{highlight}</p>
+          </div>
+        ))}
       </CardContent>
     </Card>
   )

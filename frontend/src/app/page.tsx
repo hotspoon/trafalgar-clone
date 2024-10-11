@@ -7,7 +7,6 @@ import TravelHighlights from "@/components/section/travel-highlight"
 export default function Home() {
   return (
     <div>
-      <p>Hello world!</p>
       <div className="py-4">
         <ItalyTourSection />
       </div>
