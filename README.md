@@ -13,17 +13,13 @@ This project is a clone of the Trafalgar "Best of Italy" tour page, focusing on 
 
 ![Day by Day Itinerary](frontend/public/2.%20Day%20by%20Day%20Itinerary.png)
 
-### Sightseeing Highlights
+### Sightseeing Highlights and Travel Highlights
 
-![Sightseeing Highlights](frontend/public/3.%20Sightseeing%20Highlights.png)
-
-### Travel Highlights
-
-![Travel Highlights](frontend/public/4.%20Travel%20Highlights.png)
+![Sightseeing Highlights and Travel Highlights](frontend/public/3.%20Sightseeing%20Highlights%20and%20Travel%20Highlights.png)
 
 ### Frequently Asked Questions
 
-![Frequently Asked Questions](frontend/public/5.%20Frequently%20Asked%20Questions.png)
+![Frequently Asked Questions](frontend/public/4.%20FAQ.png)
 
 ## Getting Started
 
