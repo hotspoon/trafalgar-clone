@@ -5,6 +5,26 @@ This project is a clone of the Trafalgar "Best of Italy" tour page, focusing on 
 - `frontend`: A Next.js application.
 - `studio`: A Sanity CMS setup for managing content.
 
+### Top Tour Summary
+
+![Top Tour Summary](frontend/public/1.%20Top%20Tour%20Summary.png)
+
+### Day by Day Itinerary
+
+![Day by Day Itinerary](frontend/public/2.%20Day%20by%20Day%20Itinerary.png)
+
+### Sightseeing Highlights
+
+![Sightseeing Highlights](frontend/public/3.%20Sightseeing%20Highlights.png)
+
+### Travel Highlights
+
+![Travel Highlights](frontend/public/4.%20Travel%20Highlights.png)
+
+### Frequently Asked Questions
+
+![Frequently Asked Questions](frontend/public/5.%20Frequently%20Asked%20Questions.png)
+
 ## Getting Started
 
 ### Frontend
